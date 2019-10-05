@@ -1,9 +1,17 @@
 <h1>Cheerups</h1>
 <h2>Hey you! You're awesome, don't forget it.</h2>
-<ul>
-  {{#each cheerupsList as |cheerup|}}
-    <li>
-      {{cheerup.quote}}
-    </li>
-  {{/each}}
-</ul>
+
+<a href="http://localhost:4000/new"><button>Add Cheerup</button></a>
+
+<div class="container">
+{{#each cheerupsList as |cheerup|}}
+<div class="cheerup">
+<p>"{{cheerup.quote}}"</p> {{!-- -cheerup.name --}}
+<a href="http://localhost:4000/edit/{{cheerup.id}}"><button>Edit</button></a>
+<form action="/{{cheerup.id}}?_method=delete" method="post">
+  <input type="submit" value="Remove">
+</form>
+</div>
+{{/each}}
+</div>
+
