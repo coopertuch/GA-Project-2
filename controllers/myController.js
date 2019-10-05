@@ -25,7 +25,6 @@ router.post('/new', (req, res) => {
       })
   })
 
-
 router.get('/edit/:id', (req, res) => {
     cheerupsModel.findOne({_id: req.params.id})
       .then(cheerupsList => {
