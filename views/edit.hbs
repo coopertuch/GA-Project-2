@@ -1,10 +1,14 @@
 <h1>Edit Cheerup:</h1>
-<h2></h2>
 
+<div class="cheerup">
 <form action="/{{cheerup.id}}?_method=put" method="post">
   <p>
     <label>Quote:</label>
     <input type="text" value="{{cheerup.quote}}" name="attribute"/>
+  </p>
+  <p>
+    <label>Author:</label>
+    <input type="text" value="{{cheerup.author}}" name="attribute"/>
   </p>
   <input type="submit" value="Update" />
 </form>
@@ -12,3 +16,4 @@
 <form action="/{{cheerup.id}}?_method=delete" method="post">
   <input type="submit" value="Delete">
 </form>
+</div>
