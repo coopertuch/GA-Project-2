@@ -41,5 +41,4 @@ router.put('/:id', (req, res) => {
       .then(cheerup => {
         res.redirect('/')
       })
-  })
-  
+})
