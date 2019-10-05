@@ -18,6 +18,7 @@
   "homepage": "https://github.com/coopertuch/GA-Project-2#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "hbs": "^4.0.5"
+    "hbs": "^4.0.5",
+    "mongoose": "^5.7.3"
   }
 }
