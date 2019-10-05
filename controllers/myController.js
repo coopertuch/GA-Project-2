@@ -7,6 +7,13 @@ router.get("/", (req, res) => {
     cheerupsModel.find({}).then(cheerupsList => res.render('index', { cheerupsList }))
 })
 
+router.delete('/:id', (req, res) => {
+    cheerupsModel.findOneAndRemove({ _id: req.params.id })
+      .then(() => {
+        res.redirect('/')
+      })
+})
+
 router.get('/new', (req, res) => {
     res.render('new')
 })
