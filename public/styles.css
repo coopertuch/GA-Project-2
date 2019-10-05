@@ -10,6 +10,8 @@ button, input {
 
 .container {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .cheerup {
@@ -18,7 +20,7 @@ button, input {
     align-content: center;
     border: 3px solid gray;
     border-radius: 5px;
-    height: 100px;
-    width: 28%;
+    height: 120px;
+    width: 27%;
     margin: 1% 2% 1% 2%;
 }

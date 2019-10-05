@@ -23,7 +23,7 @@ router.post('/new', (req, res) => {
       .then(myNewCheerup => {
         res.redirect('/')
       })
-  })
+})
 
 router.get('/edit/:id', (req, res) => {
     cheerupsModel.findOne({_id: req.params.id})

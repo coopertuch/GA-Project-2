@@ -1,12 +1,11 @@
 <h1>Cheerups</h1>
-<h2>Hey you! You're awesome, don't forget it.</h2>
 
 <a href="http://localhost:4000/new"><button>Add Cheerup</button></a>
 
 <div class="container">
 {{#each cheerupsList as |cheerup|}}
 <div class="cheerup">
-<p>"{{cheerup.quote}}"</p> {{!-- -cheerup.name --}}
+<p>"{{cheerup.quote}}"<br>{{cheerup.author}}</p>
 <a href="http://localhost:4000/edit/{{cheerup.id}}"><button>Edit</button></a>
 <form action="/{{cheerup.id}}?_method=delete" method="post">
   <input type="submit" value="Remove">
@@ -15,3 +14,4 @@
 {{/each}}
 </div>
 
+<h2>Hey you! You're awesome, don't forget it.</h2>
