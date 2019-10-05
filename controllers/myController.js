@@ -27,14 +27,14 @@ router.post('/new', (req, res) => {
 
 router.get('/edit/:id', (req, res) => {
     cheerupsModel.findOne({_id: req.params.id})
-      .then(cheerupsList => {
-        res.render("edit", { cheerupsList })
+      .then(cheerup => {
+        res.render("edit", { cheerup })
       })
 })
 
 router.put('/:id', (req, res) => {
     cheerupsModel.findOneAndUpdate({_id: req.params.id}, req.body, { new: true })
-      .then(cheerupsList => {
+      .then(cheerup => {
         res.redirect('/')
       })
   })

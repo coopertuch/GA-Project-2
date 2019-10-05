@@ -3,12 +3,12 @@
 <div class="cheerup">
 <form action="/{{cheerup.id}}?_method=put" method="post">
   <p>
-    <label>Quote:</label>
-    <input type="text" value="{{cheerup.quote}}" name="attribute"/>
+    <label for="quote">Quote:</label>
+    <input type="text" value="{{cheerup.quote}}" name="quote"/>
   </p>
   <p>
-    <label>Author:</label>
-    <input type="text" value="{{cheerup.author}}" name="attribute"/>
+    <label for="author">Author:</label>
+    <input type="text" value="{{cheerup.author}}" name="author"/>
   </p>
   <input type="submit" value="Update" />
 </form>
