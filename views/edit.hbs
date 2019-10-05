@@ -1,0 +1,9 @@
+<h2>Edit Cheerup:</h2>
+
+<form action="/{{cheerup.id}}?_method=put" method="post">
+  <p>
+    <label>Quote:</label>
+    <input type="text" value="{{cheerup.quote}}" name="attribute"/>
+  </p>
+  <input type="submit" value="Update" />
+</form>
