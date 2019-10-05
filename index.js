@@ -4,6 +4,7 @@ const app = express()
 const parser = require('body-parser')
 const methodOverride = require('method-override')
 
+app.use('/assets', express.static('public'))
 app.use(parser.urlencoded({ extended: true }))
 app.set("view engine", "hbs")
 app.use(methodOverride('_method'))
