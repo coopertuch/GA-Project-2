@@ -1,19 +1,21 @@
 <h1>Edit Cheerup:</h1>
 
-<div class="cheerup">
-<form action="/{{cheerup.id}}?_method=put" method="post">
-  <p>
-    <label for="quote">Quote:</label>
-    <input type="text" value="{{cheerup.quote}}" name="quote"/>
-  </p>
-  <p>
-    <label for="author">Author:</label>
-    <input type="text" value="{{cheerup.author}}" name="author"/>
-  </p>
-  <input type="submit" value="Update" />
-</form>
+<a href="http://localhost:4000/"><button>All Cheerups</button></a>
+<br>
 
-<form action="/{{cheerup.id}}?_method=delete" method="post">
-  <input type="submit" value="Delete">
-</form>
+<div class="cheerup">
+  <form action="/{{cheerup.id}}?_method=put" method="post">
+    <p>
+      <label for="quote">Quote:</label>
+      <input type="text" value="{{cheerup.quote}}" name="quote"/>
+    </p>
+    <p>
+      <label for="author">Author:</label>
+      <input type="text" value="{{cheerup.author}}" name="author"/>
+    </p>
+    <input type="submit" value="Update" />
+  </form>
+  <form action="/{{cheerup.id}}?_method=delete" method="post">
+    <input type="submit" value="Remove">
+  </form>
 </div>
