@@ -1,7 +1,7 @@
 <h1>Edit Cheerup:</h1>
 
 <a href="http://localhost:4000/"><button>All Cheerups</button></a>
-<br><br>
+<br>
 
 <div class="edit">
   <form action="/{{cheerup.id}}?_method=put" method="post">
@@ -14,10 +14,6 @@
       <input class="input" type="text" value="{{cheerup.author}}" name="author"/>
     </p>
     <input type="submit" value="Submit" />
-  </form>
-  <div class="links">
-  <form action="/{{cheerup.id}}?_method=delete" method="post">
-    <input type="submit" value="Remove">
   </form>
 </div>
 
