@@ -6,16 +6,21 @@
 {{#each cheerupsList as |cheerup|}}
 
 <div class="cheerup">
-  <p>"{{cheerup.quote}}"<br>{{cheerup.author}}</p>
-  <a href="http://localhost:4000/edit/{{cheerup.id}}"><button>Edit</button></a>
-  <div class="links">
-    <form action="/{{cheerup.id}}?_method=delete" method="post">
-      <input type="submit" value="Remove">
-    </form>
+  <div class="box">
+    <p>"{{cheerup.quote}}"<br>{{cheerup.author}}</p>
+    <a href="http://localhost:4000/edit/{{cheerup.id}}"><button>Edit</button></a>
+    <div class="links">
+      <form action="/{{cheerup.id}}?_method=delete" method="post">
+        <input type="submit" value="Remove">
+      </form>
+    </div>
   </div>
 </div>
 
 {{/each}}
 </div>
 
-{{!-- <h2>Hey you! You're awesome, don't forget it.</h2> --}}
+<h2>“Take the time today to love yourself. You deserve it.” Avina Celeste</h2>
+
+{{!-- https://www.goodhousekeeping.com/health/wellness/g2401/inspirational-quotes/ --}}
+{{!-- quotes --}}
