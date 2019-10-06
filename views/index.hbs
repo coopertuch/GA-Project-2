@@ -1,16 +1,18 @@
 <h1>Cheerups!</h1>
 
 <a href="http://localhost:4000/new"><button>New Cheerup</button></a>
-
+<br><br>
 <div class="container">
 {{#each cheerupsList as |cheerup|}}
 
 <div class="cheerup">
   <p>"{{cheerup.quote}}"<br>{{cheerup.author}}</p>
   <a href="http://localhost:4000/edit/{{cheerup.id}}"><button>Edit</button></a>
-  <form action="/{{cheerup.id}}?_method=delete" method="post">
-    <input type="submit" value="Remove">
-  </form>
+  <div class="links">
+    <form action="/{{cheerup.id}}?_method=delete" method="post">
+      <input type="submit" value="Remove">
+    </form>
+  </div>
 </div>
 
 {{/each}}

@@ -1,20 +1,21 @@
 <h1>Edit Cheerup:</h1>
 
 <a href="http://localhost:4000/"><button>All Cheerups</button></a>
-<br>
+<br><br>
 
-<div class="cheerup">
+<div class="edit">
   <form action="/{{cheerup.id}}?_method=put" method="post">
     <p>
       <label for="quote">Quote:</label>
-      <input type="text" value="{{cheerup.quote}}" name="quote"/>
+      <input class="input" type="text" value="{{cheerup.quote}}" name="quote"/>
     </p>
     <p>
       <label for="author">Author:</label>
-      <input type="text" value="{{cheerup.author}}" name="author"/>
+      <input class="input" type="text" value="{{cheerup.author}}" name="author"/>
     </p>
-    <input type="submit" value="Update" />
+    <input type="submit" value="Submit" />
   </form>
+  <div class="links">
   <form action="/{{cheerup.id}}?_method=delete" method="post">
     <input type="submit" value="Remove">
   </form>

@@ -1,0 +1,47 @@
+body {
+    background-color: lightblue;
+    font-family: arial;
+    text-align: center;
+}
+
+button, input {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.input {
+    width: 60%;
+}
+
+.cheerup {
+    background-color: rgb(208, 243, 255);
+    display: flex;
+    display: inline-block;
+    align-content: center;
+    border: 3px solid white;
+    border-radius: 5px;
+    height: 140px;
+    width: 27%;
+    margin: 1% 2% 1% 2%;
+}
+
+.new, .edit {
+    background-color: rgb(208, 243, 255);
+    display: flex;
+    display: inline-block;
+    align-content: center;
+    border: 3px solid white;
+    border-radius: 5px;
+    height: 140px;
+    width: 80%;
+    margin: 1% 2% 1% 2%;
+}
+
+.links {
+    display: inline-block;
+}

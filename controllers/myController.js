@@ -25,9 +25,9 @@ router.post('/new', (req, res) => {
       })
 })
 
-router.get('/edit', (req, res) => {
-  res.render('edit')
-})
+// router.get('/edit', (req, res) => {
+//   res.render('edit')
+// })
 
 router.get('/edit/:id', (req, res) => {
     cheerupsModel.findOne({_id: req.params.id})
