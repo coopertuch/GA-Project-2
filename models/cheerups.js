@@ -3,7 +3,7 @@ const mongoose = require("../db/connection")
 const cheerupSchema = new mongoose.Schema({
     quote: {
       type: String, 
-      maxlength: 140
+      maxlength: 100
     },
     author: {
       type: String,
