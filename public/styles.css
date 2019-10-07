@@ -90,3 +90,7 @@ p {
 .links {
     display: inline-block;
 }
+
+.likes {
+    width: 50%;
+}
