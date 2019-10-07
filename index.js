@@ -12,7 +12,13 @@ app.set("view engine", "hbs")
 const myController = require("./controllers/controller")
 app.use("/", myController)
 
-app.listen(4000, () => console.log("Major Tom to Ground Control"))
+app.set("port", process.env.PORT || 4000);
+
+app.listen(app.get("port"), () => {
+    console.log(`Major Tom to Ground Control, we've docked with port ${app.get("port")}`);
+  });
 
 // https://git.generalassemb.ly/aspittel/express-checklist
-// syntax and troubleshooting
+// syntax help and troubleshooting
+// https://github.com/coopertuch/Heroku-Checklist
+// syntax help and troubleshooting
