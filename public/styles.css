@@ -8,6 +8,10 @@ button, input {
     background-color: white;
 }
 
+button {
+    margin-bottom: 1%;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -15,11 +19,11 @@ button, input {
 }
 
 .box {
-    padding: 3px;
+    padding: 4px;
 }
 
 .input {
-    width: 65%;
+    width: 80%;
 }
 
 @media screen and (min-width: 1000px) {
@@ -60,7 +64,7 @@ button, input {
     border: 3px solid white;
     border-radius: 5px;
     height: 130px;
-    width: 70%;
+    width: 80%;
     margin: 1% 2% 1% 2%;
 }
 
