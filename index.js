@@ -9,7 +9,7 @@ app.use("/assets", express.static("public"))
 app.use(parser.urlencoded({ extended: true }))
 app.set("view engine", "hbs")
 
-const myController = require("./controllers/myController")
+const myController = require("./controllers/controller")
 app.use("/", myController)
 
 app.listen(4000, () => console.log("Major Tom to Ground Control"))
