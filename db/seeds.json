@@ -1,17 +1,32 @@
 [
     {
-        "quote": "Cause every little thing, is gonna be alright",
-        "author": "Bob Marley",
+        "quote": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+        "author": "Albert Einstein",
         "likes": 0
     },
     {
-        "quote": "Dont worry, be happy",
-        "author": "Bobby McFerrin",
+        "quote": "You are never too old to set another goal or to dream a new dream.",
+        "author": "C.S. Lewis",
         "likes": 0
     },
     {
-        "quote": "The best is yet to be",
-        "author": "Robert Browning",
+        "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+        "author": "Winston Churchill",
+        "likes": 0
+    },
+    {
+        "quote": "Act as if what you do makes a difference. It does.",
+        "author": "William James",
+        "likes": 0
+    },
+    {
+        "quote": "Never bend your head. Always hold it high. Look the world straight in the eye.",
+        "author": "Helen Keller",
+        "likes": 0
+    },
+    {
+        "quote": "You must do the things you think you cannot do.",
+        "author": "Eleanor Roosevelt",
         "likes": 0
     }
 ]
