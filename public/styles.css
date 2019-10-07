@@ -22,6 +22,10 @@ h1 {
     margin: 20px 0 20px 0;
 }
 
+p {
+    margin: 10px 10px 10px 10px;
+}
+
 .nav {
     height: 25px;
     font-weight: bold;
@@ -31,10 +35,6 @@ h1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.box {
-    padding: 4px;
 }
 
 .input {
@@ -49,7 +49,7 @@ h1 {
         align-content: center;
         border: 3px solid white;
         border-radius: 5px;
-        height: 135px;
+        height: 125px;
         width: 27%;
         margin: 1% 2% 1% 2%;
     }
@@ -63,7 +63,7 @@ h1 {
         align-content: center;
         border: 3px solid white;
         border-radius: 5px;
-        height: 125px;
+        height: 105px;
         width: 80%;
         margin: 1% 2% 1% 2%;
     }
