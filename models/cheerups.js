@@ -8,6 +8,10 @@ const cheerupSchema = new mongoose.Schema({
     author: {
       type: String,
       maxlength: 20
+    },
+    likes: {
+      type: Number,
+      default: 0
     }
   });
 

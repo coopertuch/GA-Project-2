@@ -13,3 +13,6 @@ const myController = require("./controllers/controller")
 app.use("/", myController)
 
 app.listen(4000, () => console.log("Major Tom to Ground Control"))
+
+// https://git.generalassemb.ly/aspittel/express-checklist
+// syntax

@@ -11,8 +11,9 @@ button, input {
     color: rgb(7, 7, 7);
 }
 
-button {
+button, .button {
     margin-bottom: 1%;
+    height: 24px;
 }
 
 h1 {
@@ -80,6 +81,10 @@ h1 {
     height: 120px;
     width: 80%;
     margin: 1% 2% 1% 2%;
+}
+
+.edit {
+    height: 155px;
 }
 
 .links {

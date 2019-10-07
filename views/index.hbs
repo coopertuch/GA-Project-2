@@ -6,10 +6,10 @@
 <div class="cheerup">
   <div class="box">
     <p>"{{cheerup.quote}}"<br>{{cheerup.author}}</p>
-    <a href="http://localhost:4000/edit/{{cheerup.id}}"><button>Edit</button></a>
+    <a href="http://localhost:4000/edit/{{cheerup.id}}"><button>Edit &#128077;+{{cheerup.likes}}</button></a>
     <div class="links">
       <form action="/{{cheerup.id}}?_method=delete" method="post">
-        <input type="submit" value="Remove">
+        <input class="button" type="submit" value="Remove">
       </form>
     </div>
   </div>
