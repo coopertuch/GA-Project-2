@@ -10,4 +10,5 @@ if (process.env.NODE_ENV === "production") {
 };
 
 mongoose.Promise = Promise
+Promise.reject(new Error('woops'));
 module.exports = mongoose
