@@ -11,9 +11,9 @@ if (process.env.NODE_ENV === "production") {
 
 mongoose
     .connect(mongoURI, { useNewUrlParser: true })
-    .then(cheerup =>
-        console.log(`connected`)
+    .then(instance =>
+        console.log(`connected to ${instance.connections[0].name}`)
     )
-    .catch(error => error);
+    .catch(error => console.log('failed', error));
 
 module.exports = mongoose
