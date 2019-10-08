@@ -78,13 +78,13 @@ p {
     align-content: center;
     border: 3px solid white;
     border-radius: 5px;
-    height: 120px;
+    height: 105px;
     width: 80%;
     margin: 1% 2% 1% 2%;
 }
 
 .edit {
-    height: 155px;
+    height: 130px;
 }
 
 .links {
