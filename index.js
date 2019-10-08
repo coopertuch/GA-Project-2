@@ -12,7 +12,7 @@ app.set("view engine", "hbs")
 const myController = require("./controllers/controller")
 app.use("/", myController)
 
-app.set("port", process.env.PORT || 8080);
+app.set("port", process.env.PORT || 4000);
 app.listen(app.get("port"))
 
 // https://git.generalassemb.ly/aspittel/express-checklist
