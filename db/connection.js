@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 let mongoURI = "";
-mongoose.connect(mongoURI)
+mongoose.connect(mongoURI, {useNewUrlParser: true } )
 
 mongoose.Promise = Promise
 
