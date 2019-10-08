@@ -12,11 +12,8 @@ app.set("view engine", "hbs")
 const myController = require("./controllers/controller")
 app.use("/", myController)
 
-app.set("port", process.env.PORT || 4000);
-
-app.listen(app.get("port"), () => {
-    console.log(`Major Tom to Ground Control, we've docked with port ${app.get("port")}`);
-  });
+app.set("port", process.env.PORT || 8080);
+app.listen(app.get("port"))
 
 // https://git.generalassemb.ly/aspittel/express-checklist
 // syntax help and troubleshooting
