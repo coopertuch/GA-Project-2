@@ -13,7 +13,6 @@
 
 
 ## Technologies Used
-The technologies used for this project include:
 * HTML
 * CSS
 * JavaScript
