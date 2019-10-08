@@ -19,5 +19,5 @@ app.listen(app.get("port"), () => {
 
 // https://git.generalassemb.ly/aspittel/express-checklist
 // syntax help and troubleshooting
-// https://github.com/coopertuch/Heroku-Checklist
+// https://git.generalassemb.ly/seir-826/w06d03-seir826-heroku-atlas-deployment
 // syntax help and troubleshooting
