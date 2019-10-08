@@ -1,12 +1,12 @@
 <h1>Cheerups!</h1>
 
-<a href="http://localhost:8080/new"><button class='nav'>New Cheerup</button></a>
+<a href="https://coopscheerups.herokuapp.com/new"><button class='nav'>New Cheerup</button></a>
 <div class="container">
 {{#each cheerupsList as |cheerup|}}
 <div class="cheerup">
   <div class="box">
     <p>"{{cheerup.quote}}"<br>{{cheerup.author}}</p>
-    <a href="http://localhost:8080/edit/{{cheerup.id}}"><button>Edit &#128077;+{{cheerup.likes}}</button></a>
+    <a href="https://coopscheerups.herokuapp.com/edit/{{cheerup.id}}"><button>Edit &#128077;+{{cheerup.likes}}</button></a>
     <div class="links">
       <form action="/{{cheerup.id}}?_method=delete" method="post">
         <input class="button" type="submit" value="Remove">
