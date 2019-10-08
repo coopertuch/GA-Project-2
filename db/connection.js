@@ -1,8 +1,9 @@
 const mongoose = require("mongoose");
 mongoose.Promise = Promise
-mongoose.set("useUnifiedTopology", true);
 
 let mongoURI = "";
+mongoose.set("useUnifiedTopology", true);
+
 if (process.env.NODE_ENV === "production") {
     mongoURI = process.env.DB_URL;
   } else {
