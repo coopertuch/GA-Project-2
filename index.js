@@ -13,7 +13,9 @@ const myController = require("./controllers/controller")
 app.use("/", myController)
 
 app.set("port", process.env.PORT || 4000);
-app.listen(app.get("port"))
+app.listen(app.get("port"), () => {
+    console.log("Major Tom to Ground Control")
+})
 
 // https://git.generalassemb.ly/aspittel/express-checklist
 // syntax help and troubleshooting
