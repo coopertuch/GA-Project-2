@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 mongoose.Promise = Promise
 
-// mongoose.connect('mongodb://localhost/cheerupsdb')
+mongoose.connect('mongodb://localhost/cheerupsdb')
 
 let mongoURI = "";
 if (process.env.NODE_ENV === "production") {
