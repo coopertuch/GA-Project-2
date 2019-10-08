@@ -9,7 +9,7 @@ if (process.env.NODE_ENV === "production") {
 };
 
 mongoose.connect(mongoURI, { useNewUrlParser: true })
-    .catch(error);
+    .catch(error => error);
 
 mongoose.Promise = Promise
 module.exports = mongoose
