@@ -8,3 +8,4 @@ cheerupsModel.remove({})
   .then(() => {
     process.exit()
 })
+

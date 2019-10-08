@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 let mongoURI = "";
 mongoose.set('useUnifiedTopology', true);
-mongoose.connect('mongodb://localhost/cheerupsdb', { useNewUrlParser: true })
 
 if (process.env.NODE_ENV === "production") {
     mongoURI = process.env.DB_URL;
@@ -9,6 +8,8 @@ if (process.env.NODE_ENV === "production") {
     mongoURI = "mongodb://localhost/cheerupsdb";
 };
 
+mongoose.connect(mongoURI, { useNewUrlParser: true })
+    .catch(error);
+
 mongoose.Promise = Promise
-Promise.reject(new Error('woops'));
 module.exports = mongoose
