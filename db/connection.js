@@ -1,13 +1,15 @@
 const mongoose = require('mongoose');
-let mongoURI = "";
-mongoose.connect(mongoURI, {useNewUrlParser: true } )
 
 mongoose.Promise = Promise
 
+let mongoURI = "";
 if (process.env.NODE_ENV === "production") {
     mongoURI = process.env.DB_URL;
   } else {
     mongoURI = "mongodb://localhost/cheerupsdb";
 }
+
+mongoose.connect('mongodb://localhost/cheerupsdb')
+
 
 module.exports = mongoose
