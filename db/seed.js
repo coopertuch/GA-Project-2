@@ -3,7 +3,7 @@ const seedData = require("./seeds.json")
 
 cheerupsModel.deleteMany({})
   .then(() => {
-    return cheerupsModel.collection.insert(seedData)
+    return cheerupsModel.collection.insertMany(seedData)
   })
   .then(() => {
     process.exit()
