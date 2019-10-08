@@ -12,7 +12,7 @@ app.set("view engine", "hbs")
 const myController = require("./controllers/controller")
 app.use("/", myController)
 
-app.set("port", process.env.PORT || 4000);
+app.set("port", process.env.PORT || 8080);
 app.listen(app.get("port"), () => {
     console.log("Major Tom to Ground Control")
 })
