@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+mongoose.Promise = Promise
 let mongoURI = "";
 mongoose.set('useUnifiedTopology', true);
 
@@ -11,5 +12,4 @@ if (process.env.NODE_ENV === "production") {
 mongoose.connect(mongoURI, { useNewUrlParser: true })
     .catch(error => error);
 
-mongoose.Promise = Promise
 module.exports = mongoose
