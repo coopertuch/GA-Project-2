@@ -34,10 +34,6 @@ p {
     margin: 10px 10px 10px 10px;
 }
 
-.main {
-    margin-top: 10px;
-}
-
 .nav {
     height: 25px;
     font-size: 16px;
@@ -111,5 +107,9 @@ p {
 }
 
 .likes {
-    width: 50%;
+    width: 30%;
+}
+
+.main {
+    margin-top: 10px;
 }
