@@ -1,4 +1,4 @@
-<h1>Coop's Cheerups.</h1> 
+<h1>Coop's Cheerups</h1> 
 
 ## Description:
 When you need a little positivity in your life, look no further than Cheerups. Coop's Cheerups allows you to read, post, edit, and delete from a board of positive quotes, while tracking positive and negative feedback through likes. 
