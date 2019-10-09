@@ -4,6 +4,7 @@
 When you need a little positivity in your life, look no further than Cheerups. Coop's Cheerups allows you to read, post, edit, and delete from a board of positive quotes, while tracking positive and negative feedback through likes. 
 
 ## Examples:
+![Planning](planning/Planning.png)
 ![WireFrame](planning/Project2Wireframe.png)
 ![Project Example Desktop](images/ProjectExampleDesktop.png)
 ![Project Example 1](images/ProjectExample1.png)
