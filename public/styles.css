@@ -13,8 +13,8 @@ body {
 }
 
 .button {
-    font-family: 'Courier New', Courier, monospace;
-    margin-bottom: 1%;
+    font-family: arial;
+    padding: 4px;
     height: 20px;
 }
 
