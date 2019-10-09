@@ -95,7 +95,7 @@ p {
     border-radius: 5px;
     height: 100px;
     width: 90%;
-    margin: 2% 2% 1% 2%;
+    margin: 1% 2% 1% 2%;
 }
 
 .edit {
@@ -111,5 +111,5 @@ p {
 }
 
 .main {
-    margin-top: 20px;
+    margin-top: 10px;
 }
