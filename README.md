@@ -5,6 +5,8 @@
 
 ## Examples:
 ![Project Example 1](images/ProjectExample1.png);
+![Project Example 2](images/ProjectExample2.png);
+![Project Example 3](images/ProjectExample3.png);
 
 ## Current Features
 
