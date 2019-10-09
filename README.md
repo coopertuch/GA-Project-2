@@ -16,7 +16,6 @@
 * HTML
 * CSS
 * JavaScript
-* MongoDB Atlas
 * MongoDB 
 * Mongoose
 * Express
