@@ -5,6 +5,7 @@ When you need a little positivity in your life, look no further than Cheerups. C
 
 ## Examples:
 ![WireFrame](planning/Project2Wireframe.png)
+![Project Example Desktop](images/ProjectExampleDesktop.png)
 ![Project Example 1](images/ProjectExample1.png)
 ![Project Example 2](images/ProjectExample2.png)
 ![Project Example 3](images/ProjectExample3.png)
