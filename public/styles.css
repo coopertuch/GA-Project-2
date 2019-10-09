@@ -36,7 +36,10 @@ p {
     color: black;
     text-decoration: none;
     padding: 4px;
-    margin-bottom: 30px;
+}
+
+.main {
+    margin-top: 2%;
 }
 
 .container {
