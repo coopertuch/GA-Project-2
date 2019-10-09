@@ -21,3 +21,5 @@ app.listen(app.get("port"), () => {
 // syntax help and troubleshooting
 // https://git.generalassemb.ly/seir-826/w06d03-seir826-heroku-atlas-deployment
 // syntax help and troubleshooting
+// https://mongoosejs.com/docs/validation.html
+// maxlength syntax
