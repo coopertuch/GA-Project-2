@@ -28,13 +28,14 @@ p {
 
 .nav {
     height: 25px;
-    width: 10%;
     font-size: 16px;
     font-weight: bold;
     border: 1px solid black;
+    border-radius: 3px;
     background-color: white;
     color: black;
     text-decoration: none;
+    padding: 3px;
 }
 
 .container {
