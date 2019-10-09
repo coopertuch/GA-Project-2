@@ -18,10 +18,9 @@ The next features I would like to add include an account feature; this would all
 * HTML
 * CSS
 * JavaScript
-* MongoDB 
+* Express 
+* Handlebars
 * Mongoose
-* Express
-* HBS
 * Heroku
 
 ## Installation Instructions

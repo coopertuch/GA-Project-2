@@ -23,3 +23,5 @@ app.listen(app.get("port"), () => {
 // syntax help and troubleshooting
 // https://mongoosejs.com/docs/validation.html
 // maxlength syntax
+// https://mongoosejs.com/docs/connections.html
+// connections syntax
