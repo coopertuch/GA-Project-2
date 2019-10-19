@@ -17,6 +17,8 @@ app.listen(app.get("port"), () => {
     console.log("Major Tom to Ground Control")
 })
 
+// start putting these sites in the readme not your code!
+
 // https://git.generalassemb.ly/aspittel/express-checklist
 // syntax help and troubleshooting
 // https://git.generalassemb.ly/seir-826/w06d03-seir826-heroku-atlas-deployment
