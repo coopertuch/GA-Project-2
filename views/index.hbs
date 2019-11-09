@@ -3,19 +3,20 @@
 <a class="nav" href="https://coopscheerups.herokuapp.com/new">New Cheerup</a>
 
 <div class="container main">
-{{#each cheerupsList as |cheerup|}}
-<div class="cheerup">
-  <div class="box">
-    <p>"{{cheerup.quote}}"<br>{{cheerup.author}}</p>
-    <a class="button" href="https://coopscheerups.herokuapp.com/edit/{{cheerup.id}}">Edit &#128077;+{{cheerup.likes}}</a>
-    <div class="links">
-      <form action="/{{cheerup.id}}?_method=delete" method="post">
-        <input class="button" type="submit" value="Remove">
-      </form>
+  {{#each cheerupsList as |cheerup|}}
+  <div class="cheerup">
+    <div class="box">
+      <p>"{{cheerup.quote}}"<br>{{cheerup.author}}</p>
+      <a class="button"
+        href="https://coopscheerups.herokuapp.com/edit/{{cheerup.id}}">Edit{{!-- &#128077;+{{cheerup.likes}}--}}</a>
+      <div class="links">
+        <form action="/{{cheerup.id}}?_method=delete" method="post">
+          <input class="button" type="submit" value="Remove">
+        </form>
+      </div>
     </div>
   </div>
-</div>
-{{/each}}
+  {{/each}}
 </div>
 
 <h2>“Take the time today to love yourself. You deserve it.” Avina Celeste</h2>

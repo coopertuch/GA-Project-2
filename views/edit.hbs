@@ -6,16 +6,16 @@
   <form action="/{{cheerup.id}}?_method=put" method="post">
     <p>
       <label for="quote">Quote:</label>
-      <input class="input" type="text" value="{{cheerup.quote}}" name="quote"/>
+      <input class="input" type="text" value="{{cheerup.quote}}" name="quote" />
     </p>
     <p>
       <label for="author">Author:</label>
-      <input class="input" type="text" value="{{cheerup.author}}" name="author"/>
+      <input class="input" type="text" value="{{cheerup.author}}" name="author" />
     </p>
-    <p>
+    {{!-- <p>
       <label for="author">Likes:</label>
       <input class="input likes" type="number" value="{{cheerup.likes}}" name="likes"/>
-    </p>
+    </p> --}}
     <input class="button" type="submit" value="Submit" />
   </form>
 </div>
