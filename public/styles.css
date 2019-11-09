@@ -57,7 +57,7 @@ p {
 
 @media screen and (min-width: 1000px) {
   .cheerup {
-    background-color: rgb(208, 243, 255);
+    background-color: #c5e9ff;
     display: flex;
     display: inline-block;
     align-content: center;
@@ -69,7 +69,7 @@ p {
 
 @media screen and (max-width: 1000px) {
   .cheerup {
-    background-color: rgb(208, 243, 255);
+    background-color: #c5e9ff;
     display: flex;
     display: inline-block;
     align-content: center;
@@ -81,7 +81,7 @@ p {
 
 .new,
 .edit {
-  background-color: rgb(208, 243, 255);
+  background-color: #c5e9ff;
   display: flex;
   display: inline-block;
   align-content: center;
