@@ -8,8 +8,7 @@ mongoose.set("useUnifiedTopology", true);
 if (process.env.NODE_ENV === "production") {
   mongoURI = process.env.DB_URL;
 } else {
-  mongoURI =
-    "mongodb+srv://coop:0c5G2qvr36gkFZjg@cluster0-gr3pm.mongodb.net/test?retryWrites=true&w=majority";
+  mongoURI = "mongodb://localhost/cheerupsdb";
 }
 
 mongoose
